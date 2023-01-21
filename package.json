@@ -1,0 +1,23 @@
+{
+  "name": "clean-word-html",
+  "version": "1.0.0-beta.1",
+  "description": "Cleans HTML exported from Microsoft Word",
+  "main": "src/main/js/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandflow/clean-word-html.git"
+  },
+  "author": "Pierre-Anthony Lemieux <pal@palemieux.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/sandflow/clean-word-html/issues"
+  },
+  "homepage": "https://github.com/sandflow/clean-word-html#readme",
+  "dependencies": {
+    "htmlparser2": "^8.0.1",
+    "windows-1252": "^3.0.4"
+  }
+}
